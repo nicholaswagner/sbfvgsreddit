@@ -30,11 +30,14 @@
 #header .pagename a {
   display: inline-block;
   vertical-align: bottom;
-  width: 230px;
-  height: 230px;
+  width: 220px;
+  height: 220px;
   background: url(%%logo%%) no-repeat left bottom/contain;
   font-size: 0
 }
 
 /* Hide link to reddit.com (temporarily) */
 #header #header-img { display: none; }
+
+/* 	Hide new link to reddit.com (with title about immigrants) */
+#header a#header-img-a:after { content: ""; }
